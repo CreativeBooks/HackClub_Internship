@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Asimovian&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Asimovian&family=Gemunu+Libre:wght@200..800&family=Stalinist+One&display=swap');
 
 html {
     overflow-x: hidden;
@@ -52,7 +52,7 @@ body {
 }
 
 .section {
-    height:100vh;
+    height:65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,11 +157,12 @@ body {
     position:absolute;
     background:white;
     border-radius: 50%;
+    opacity: 1;
 }
 
 @keyframes twinkle {
-    0%, 100% {opacity: 0.8;}
-    50% {opacity: 0.1;}
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0.3;}
 }
 
 @keyframes drift1 {
@@ -219,6 +220,13 @@ body {
     font-style: normal;
 }
 
+.gemunu-libre{
+  font-family: "Gemunu Libre", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .header {
     text-align: center;
     color: white;
@@ -226,10 +234,25 @@ body {
 }
 
 button {
-    background: #01054c;
+     background: #080510;
     color:white;
     width:100px;
     height:50px;
     font-family: 'anta-regular';
     border:none;
 }
+
+h3 {
+    margin-right:30px;
+    margin-left:30px;
+}
+
+a{
+    color:white;
+}
+
+/* ol {
+    align-items: center;
+    justify-content: center;
+} */
+
