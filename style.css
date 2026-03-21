@@ -350,3 +350,39 @@ h2 {
 .projects-container h3 {
     margin:0 0 15px 0;
 }
+
+.color-box{
+    margin:40px auto;
+    padding:60px 40px;
+    background-color: rgba(166, 137, 235, 0.24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    max-width: 1200px;
+}
+
+.item-container {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+    margin-top:40px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.item {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    width:80px;
+    height:auto;
+    margin-bottom:15px;
+}
