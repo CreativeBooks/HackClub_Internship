@@ -59,6 +59,7 @@ body {
     justify-content: center;
     position:relative;
     z-index:10;
+    background: #080510;
 }
 
 .page {
@@ -234,7 +235,7 @@ body {
 }
 
 button {
-     background: #080510;
+    background: #080510;
     color:white;
     width:100px;
     height:50px;
@@ -255,4 +256,75 @@ a{
     align-items: center;
     justify-content: center;
 } */
+
+.table {
+    display: flex;
+    /* margin-top:30px; */
+    /* margin-right:30px;
+    margin-left:30px; */
+    flex-direction: row;
+    gap:10px;
+    border:1px solid white;
+    padding:15px;
+    margin:40px 80px;
+    width:calc(100%-80px);
+}
+
+h2 {
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.mission {
+    border:1px solid rgba(127, 119, 221, 0.3);
+    padding:32px 26px;
+    max-width:700px;
+    width:45%;
+    position:relative;
+    margin:20px auto;
+    color:rgba(166, 137, 235, 0.8);
+}
+
+.mission-blue {
+    border:1px solid rgba(55,138,221,0.3);
+    padding:32px 26px;
+    max-width:700px;
+    width:45%;
+    position:relative;
+    margin:20px auto;
+}
+
+
+
+.tag {
+    font-family:'Anta';
+    font-size:11px;
+    letter-spacing:0.12rem;
+    color:rgba(175,169,236,0.8);
+    text-transform:uppercase;
+    margin-bottom:14px;
+    text-align: center;
+}
+
+.blue-tag {
+    color:rgba(137,188,235,0.8);
+}
+
+.card-title {
+    font-size:26px;
+    /* color:white; */
+    margin-bottom:16px;
+}
+
+.card-body {
+    font-size:16px;
+    color:rgba(200,210,240,0.85);
+    line-height:1.8;
+}
+
+.project {
+    width:45%;
+    padding:15px;
+    margin:0 30px;
+}
 
