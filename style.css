@@ -322,9 +322,31 @@ h2 {
     line-height:1.8;
 }
 
-.project {
-    width:45%;
-    padding:15px;
-    margin:0 30px;
+.projects-container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
 }
 
+.projects-row {
+    display:flex;
+    gap:15px;
+    width:100%
+}
+
+.project, .project-full {
+    width:100%;
+    padding:20px;
+}
+
+.project{
+    flex:1;
+    padding:20px
+}
+
+.projects-container h3 {
+    margin:0 0 15px 0;
+}
