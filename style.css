@@ -62,6 +62,16 @@ body {
     background: #080510;
 }
 
+.section_1 {
+    height:65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    z-index:10;
+}
+
 .page {
     position: relative;
     z-index: 10;
@@ -237,10 +247,11 @@ body {
 button {
     background: #080510;
     color:white;
-    width:100px;
-    height:50px;
-    font-family: 'anta-regular';
+    width:150px;
+    height:75px;
+    font-family: 'gemunu-libre';
     border:none;
+    font-size: 18px;
 }
 
 h3 {
@@ -385,4 +396,10 @@ h2 {
     width:80px;
     height:auto;
     margin-bottom:15px;
+}
+
+.title {
+    text-align: center;
+    margin-right:20px;
+    margin-left:20px;
 }
