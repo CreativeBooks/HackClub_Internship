@@ -403,3 +403,13 @@ h2 {
     margin-right:20px;
     margin-left:20px;
 }
+
+footer {
+    background:rgba(166, 137, 235, 0.8);
+    font-family:'stalinist-one-regular';
+    font-size:12px;
+    align-items: center;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
