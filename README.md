@@ -6,7 +6,10 @@ I created this website using HTML, CSS, and some JS. The only JS that I have was
 
 AI use on this was very minimal, occasionally I would run into some situations regarding formatting. For example, when making the title a whole page long, scrolling down was creating some buffer and I had never seen anything like that and I tried many things to fix it. I couldn't figure it out so I asked AI on when I did wrong to create that buffer.
 
+In order to view all the features just keep scrolling.
+
 <img width="1324" height="748" alt="Screenshot 2026-04-19 at 2 23 26 PM" src="https://github.com/user-attachments/assets/639c01d9-2749-4994-ab9a-4c025a622adc" /> This is the main title page.
+
 
 
 ![Hackatime Badge](https://hackatime-badge.hackclub.com/U09ACQ21QC8/CreativeBooks/HackClub_Internship)
